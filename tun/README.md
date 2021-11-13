@@ -1,6 +1,6 @@
 ## Feat
 
-1. 执行 `gcc -o tun tun.c && sudo ./tun` 启动进程监听 /dev/net/tun 设备。进程启动后，会输出设备的名称。
+1. 执行 `gcc -o tun.bin tun.c && sudo ./tun` 启动进程监听 /dev/net/tun 设备。进程启动后，会输出设备的名称。
 2. 为 tun0 添加 IP，并打开设备
 
 ```sh
